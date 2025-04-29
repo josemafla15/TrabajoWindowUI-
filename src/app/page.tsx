@@ -1,8 +1,8 @@
-import {SunMedium} from 'lucide-react'; 
-import {ToggleRight} from 'lucide-react'; 
-import {ToggleLeftIcon} from 'lucide-react'; 
-import {Play} from 'lucide-react'; 
-import {Image} from 'lucide-react'; 
+import { SunMedium } from 'lucide-react'; 
+import { ToggleRight } from 'lucide-react'; 
+import { ToggleLeftIcon } from 'lucide-react'; 
+import { Play } from 'lucide-react'; 
+import { Image } from 'lucide-react'; 
 
 export default function Home() {
   return (
@@ -47,7 +47,7 @@ export default function Home() {
 
         <section >
           <strong className="text-black">Interface theme</strong>
-          <p>Customize your application appereance</p>
+          <p>Customize your application appearance</p>
         </section>
 
         <hr className="my-4 border-gray-300" />
@@ -55,7 +55,7 @@ export default function Home() {
         <section>
           <strong className="flex justify-between text-black">Accent color</strong>
           <div className='flex items-center justify-between'>
-            <span>Pick your platform's main color</span>
+            <span>Pick your platform main color</span>
           <div className="flex gap-2 mt-2">
             <div className="w-6 h-6 rounded-full bg-red-500"></div>
             <div className="w-6 h-6 rounded-full bg-blue-500"></div>
@@ -91,7 +91,7 @@ export default function Home() {
 
         <section className='flex item-center justify-between'>
           <div className='flex items-center gap-2'>
-            <Image color ='grey' size ={24} />
+          <Image color='grey' size={24} aria-label="Image icon" />
             <strong className="flex justify-between text-black">High quality photo</strong>
           </div>
           <ToggleLeftIcon color='purple' size={24} />
